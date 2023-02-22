@@ -16,7 +16,7 @@ export default function Card({
   console.log(cities);
 
   return (
-    <div className="card_container">
+    <div className="card_container" data-aos="fade-up">
       <div className="card_title">
         <i
           className="fa-solid fa-location-dot"

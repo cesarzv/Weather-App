@@ -58,3 +58,14 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .landing_container {
+    h1 {
+      font-size: 42px;
+    }
+    button {
+      margin-top: 30px;
+    }
+  }
+}

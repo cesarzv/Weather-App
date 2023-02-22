@@ -37,7 +37,7 @@ function App() {
       </Route>
       <Route exact path="/home">
         <NavBar onSearch={onSearch} />
-        <div>
+        <div className="citiesCont">
           <Cards cities={cities} handleDelete={handleDelete} />
         </div>
       </Route>

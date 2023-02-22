@@ -7,6 +7,14 @@
   background: linear-gradient(-45deg, $main, #1259f3, #23a6d5, #82cffc);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
+  gap: 25px;
+
+  .backHome {
+    i {
+      font-size: 28px;
+      color: white;
+    }
+  }
 }
 
 @keyframes gradient {
