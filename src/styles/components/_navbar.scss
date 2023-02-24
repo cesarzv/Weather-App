@@ -8,8 +8,12 @@
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
   gap: 25px;
+  position: relative;
 
   .backHome {
+    position: absolute;
+    top: 37%;
+    left: 4%;
     i {
       font-size: 28px;
       color: white;
